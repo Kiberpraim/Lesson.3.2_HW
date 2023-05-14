@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lesson.3.2_HW</string>
+
+    <string name="registration">РегистрациЯ</string>
+    <string name="next">Продолжить</string>
+    <string name="data">Ваши данные: </string>
+
+    <string name="hint_name">Имя</string>
+    <string name="hint_surname">Фамилия</string>
+
+    <string name="hint_age">Возраст</string>
+    <string name="hint_gender">Пол</string>
+
+    <string name="hint_placeOfStudy">Место учёбы</string>
+    <string name="hint_placeOfWork">Место работы</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
