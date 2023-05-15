@@ -38,7 +38,6 @@ public class SecondFragment extends Fragment {
         ThirdFragment thirdFragment = new ThirdFragment();
 
         buttonNavigate.setOnClickListener(v -> {
-            if (Integer.parseInt(editTextAge.getText().toString()) > 0 && Integer.parseInt(editTextAge.getText().toString()) < 120) {
                 if (!editTextAge.getText().toString().isEmpty() && !editTextGender.getText().toString().isEmpty()) {
                     putArgumentsInBundle();
 
@@ -50,12 +49,7 @@ public class SecondFragment extends Fragment {
                             .replace(R.id.fragment_container_view, thirdFragment)
                             .addToBackStack(null)
                             .commit();
-                } else {
-                    Toast.makeText(context, "Заполните все поля", Toast.LENGTH_LONG).show();
-                }
-            } else {
-                Toast.makeText(context, "Ведите правильный возраст!", Toast.LENGTH_LONG).show();
-            }
+                } else {Toast.makeText(context, "Заполните все поля", Toast.LENGTH_LONG).show();}
         });
     }
 
